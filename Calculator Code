@@ -1,0 +1,24 @@
+calc == 1;
+while calc == 0;
+  print("Would you like to coninue using the calculator?: ")
+  choice = input
+  if choice == "yes"
+    calc == 1
+  elseif choice == "no"
+    print("Goodbye!")
+    break
+while calc == 1;
+  request_operation = str(input("What arithmetic operation are we performing? [add/subtract/multiply/divide/power]:"))
+  action = ""
+  if not request_operation in [add/subtract/multiply/divide/power]:
+    print("Incorrect selection, please specify avaliable options!")
+  else:
+    x = int(input("Please enter the first integer/base/numerator of {} operation.".format(request_operation)))
+    y = int(input("Please enter the second integer/exponent/denominator of {} operation.".format(request_operation)))
+    action = request_operation
+    print(action)
+  
+if request_operation == "add";
+  add = x+y
+  print(x "+" y "=" add)
+  calc == 0
